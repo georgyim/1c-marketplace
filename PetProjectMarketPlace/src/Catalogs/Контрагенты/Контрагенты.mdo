@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0f17f99-b25c-4e4a-9f6e-c9b63313330a">
+  <producedTypes>
+    <objectType typeId="107e5c69-7c92-4553-8446-e6a619e52888" valueTypeId="175b6be1-f911-4185-b42c-185deef8787e"/>
+    <refType typeId="2cd28742-e896-4b77-9c35-3b3227eeb20c" valueTypeId="ccac55b6-8fbb-4f54-a99c-542b1ab2829d"/>
+    <selectionType typeId="9648e080-6744-453c-840b-72e5af0171c7" valueTypeId="d32125a2-cb59-441c-982c-21a5d95239dc"/>
+    <listType typeId="b41fdc04-8829-48f3-b3af-92027aaf0f68" valueTypeId="e0dc1647-4774-4489-b9ba-85d6335b6f71"/>
+    <managerType typeId="6c65cdfc-9294-4291-9286-2561b8dc657b" valueTypeId="5de79870-8d70-4ea1-823f-9b6801b0b02b"/>
+  </producedTypes>
+  <name>Контрагенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрагенты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="4cb6b114-410a-411c-a549-26c5f2a7d3a6">
+    <name>ИНН</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИНН</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b8d2c046-2733-423a-9f99-0f317ec50b54">
+    <name>ЭтоМаркетплейс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это маркетплейс</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

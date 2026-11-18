@@ -38,4 +38,10 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <documents>Document.ЗаказМаркетплейса</documents>
+  <documents>Document.ПриходнаяНакладная</documents>
+  <documents>Document.УстановкаЦенМаркетплейса</documents>
+  <enums>Enum.СтатусыЗаказаFBS</enums>
 </mdclass:Configuration>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="783c8771-7dad-4048-bc56-5e84376a67e5">
+  <producedTypes>
+    <objectType typeId="18eba231-ec84-468e-9385-0c7c5553e065" valueTypeId="56e5ff5a-dae9-4c29-8617-cf7113ce28e9"/>
+    <refType typeId="37ea157a-65a3-4277-8116-ee4c89189f63" valueTypeId="ec022027-06d0-411c-a49f-e6cf5bd23667"/>
+    <selectionType typeId="7bd8550a-ca3c-4867-9c04-2ba2c21d47b0" valueTypeId="77094fab-e89c-431d-9c7e-303cf6d17aa6"/>
+    <listType typeId="e173cae3-c243-4145-b63a-9c6c5aab1325" valueTypeId="89f24986-1b1f-4562-b42d-e0b78baf2a18"/>
+    <managerType typeId="99f94c53-1fd5-4092-ac73-cbaa6c197114" valueTypeId="4a801d48-f5e4-47ff-91aa-9ed1430f6781"/>
+  </producedTypes>
+  <name>УстановкаЦенМаркетплейса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка цен маркетплейса</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.УстановкаЦенМаркетплейса.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <tabularSections uuid="c5272c67-9734-485d-9b51-5f39677ccdae">
+    <producedTypes>
+      <objectType typeId="008b6e2f-fb9f-405e-97b7-255eef8e2f52" valueTypeId="0c1cbbb4-e591-4c01-a036-a033c7acd26c"/>
+      <rowType typeId="01f1396c-0a25-42c3-bec2-22d246f47810" valueTypeId="df1bd456-8334-42e0-89e3-de32def0dd42"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <attributes uuid="f1d0f6fb-f937-4170-961d-96b7bf313143">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="798c2549-479f-46a4-bd0b-5fc02c01cf26">
+      <name>ЦенаПродажи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена продажи</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="53324a3b-1431-4b4f-9d79-7ccac126b64a">
+      <name>ПроцентКомиссии</name>
+      <synonym>
+        <key>ru</key>
+        <value>Процент комиссии</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Document>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aed461f7-19cd-4584-aaae-54fe26933a59">
+  <producedTypes>
+    <refType typeId="e783543c-9790-4e34-9218-91d6f9c08065" valueTypeId="f1aeef58-0b71-4182-a9ac-994a450d365f"/>
+    <listType typeId="83d64fff-8dd9-4ccd-9468-e9aa71d3dca6" valueTypeId="133435fd-e680-4f73-a47d-0b956dc60102"/>
+    <managerType typeId="d67bd65c-3486-4fbc-af8c-de2f6eb5fc9f" valueTypeId="ad62cf36-737b-4da2-ad7a-c9b94d0833dc"/>
+  </producedTypes>
+  <name>СтатусыЗаказаFBS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы заказа FBS</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="554b99a9-358f-47c3-8385-fc3fb4b4706c">
+    <name>ОжидаетСборки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидает сборки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8264368d-07e8-49a5-97d7-31fa7f683f98">
+    <name>Доставлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доставлен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bc8a22c9-ca15-43cf-8b15-56f91065c778">
+    <name>Отменен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
