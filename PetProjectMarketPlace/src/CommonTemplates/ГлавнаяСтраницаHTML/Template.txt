@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0 }
+    body { background: #0f172a; color: #f8fafc; padding: 32px; }
+    h1 { font-size: 24px; margin-bottom: 24px; }
+   	.card:not(:last-child) {
+	  margin-right: 20px;
+	}
+    .flex { display: flex; gap: 16px; margin-bottom: 28px;  }
+    .card { flex-grow: 1; background: #1e293b; border: 1px solid #334155; border-radius: 12px; padding: 20px; }
+    .card-label { color: #94a3b8; font-size: 13px; margin-bottom: 8px; }
+    .card-value { font-size: 28px; font-weight: 700; color: #38bdf8; }
+    .actions { display: flex; gap: 12px; }
+    button:not(:last-child) {
+	  margin-right: 20px;
+	}
+    button {
+      background: #2563eb; color: #fff; border: none; border-radius: 8px;
+      padding: 12px 20px; font-size: 14px; font-weight: 600; cursor: pointer;
+    }
+    button:hover { background: #1d4ed8; }
+    button.secondary { background: #334155; }
+    button.secondary:hover { background: #475569; }
+    button * { pointer-events: none; }
+  </style>
+</head>
+<body>
+  <h1>FBS Маркетплейс Коннектор</h1>
+
+  <div class="flex">
+    <div class="card">
+      <div class="card-label">Всего заказов</div>
+      <div class="card-value" id="orders-count">0</div>
+    </div>
+    <div class="card">
+      <div class="card-label">Сумма заказов</div>
+      <div class="card-value" id="total-sum">0 ₽</div>
+    </div>
+  </div>
+
+  <div class="actions">
+    <button id="btn-new-order">+ Новый заказ</button>
+    <button id="btn-orders" class="secondary">Все заказы</button>
+    <button id="btn-refresh" class="secondary">Обновить цифры</button>
+  </div>
+
+  <script>
+    const state = _STATE_;
+    document.getElementById('orders-count').textContent = state.ordersCount;
+    document.getElementById('total-sum').textContent =
+      new Intl.NumberFormat('ru-RU').format(state.totalSum) + ' ₽';
+  </script>
+</body>
+</html>

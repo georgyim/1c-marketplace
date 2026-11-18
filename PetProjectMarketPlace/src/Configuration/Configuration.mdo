@@ -38,6 +38,8 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <commonTemplates>CommonTemplate.ГлавнаяСтраницаHTML</commonTemplates>
+  <commonForms>CommonForm.ГлавнаяСтраница</commonForms>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <documents>Document.ЗаказМаркетплейса</documents>
