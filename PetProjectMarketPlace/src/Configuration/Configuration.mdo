@@ -46,4 +46,5 @@
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.УстановкаЦенМаркетплейса</documents>
   <enums>Enum.СтатусыЗаказаFBS</enums>
+  <informationRegisters>InformationRegister.ЦеныМаркетплейса</informationRegisters>
 </mdclass:Configuration>

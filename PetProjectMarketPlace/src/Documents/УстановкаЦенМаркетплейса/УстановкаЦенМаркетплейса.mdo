@@ -23,8 +23,19 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.УстановкаЦенМаркетплейса.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>InformationRegister.ЦеныМаркетплейса</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="645ef4a0-6792-4b7e-9536-40cdc1622186">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="c5272c67-9734-485d-9b51-5f39677ccdae">
     <producedTypes>
       <objectType typeId="008b6e2f-fb9f-405e-97b7-255eef8e2f52" valueTypeId="0c1cbbb4-e591-4c01-a036-a033c7acd26c"/>
