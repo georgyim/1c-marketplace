@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="138ec579-62ff-4db4-a71e-19690cafe771">
+  <name>МаркетплейсAPI</name>
+  <synonym>
+    <key>ru</key>
+    <value>Маркетплейс API</value>
+  </synonym>
+  <rootURL>market</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="e470bd72-2c4b-46f2-9fc5-d1f6f10a70d7">
+    <name>orders</name>
+    <synonym>
+      <key>ru</key>
+      <value>Orders</value>
+    </synonym>
+    <template>/orders</template>
+    <methods uuid="4a06fa0b-d041-4891-b3dc-7e19d91fea18">
+      <name>СоздатьЗаказ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Создать заказ</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ordersСоздатьЗаказ</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="dbac0dcb-3b7a-4c73-a292-1febc5b0a81b">
+    <name>СтатусЗаказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус заказа</value>
+    </synonym>
+    <template>/orders/{orderId}/status</template>
+    <methods uuid="23d18591-8414-46d0-9698-ad8d3e40b640">
+      <name>ИзменитьСтатус</name>
+      <synonym>
+        <key>ru</key>
+        <value>Изменить статус</value>
+      </synonym>
+      <httpMethod>PATCH</httpMethod>
+      <handler>СтатусЗаказаИзменитьСтатус</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

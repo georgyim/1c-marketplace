@@ -24,6 +24,10 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ЗаказМаркетплейса.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.РезервыТоваров</registerRecords>
+  <registerRecords>AccumulationRegister.ВзаиморасчетыСМаркетплейсами</registerRecords>
+  <registerRecords>AccumulationRegister.Продажи</registerRecords>
+  <registerRecords>AccumulationRegister.ТоварыНаСкладах</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="25f6db65-99ea-41ab-812f-c045faa5e7d6">

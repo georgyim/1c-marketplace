@@ -39,6 +39,8 @@
     <languageCode>ru</languageCode>
   </languages>
   <commonTemplates>CommonTemplate.ГлавнаяСтраницаHTML</commonTemplates>
+  <commonModules>CommonModule.ИнтеграцияМаркетплейсСервер</commonModules>
+  <httpServices>HTTPService.МаркетплейсAPI</httpServices>
   <commonForms>CommonForm.ГлавнаяСтраница</commonForms>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
@@ -47,4 +49,8 @@
   <documents>Document.УстановкаЦенМаркетплейса</documents>
   <enums>Enum.СтатусыЗаказаFBS</enums>
   <informationRegisters>InformationRegister.ЦеныМаркетплейса</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВзаиморасчетыСМаркетплейсами</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.РезервыТоваров</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ТоварыНаСкладах</accumulationRegisters>
 </mdclass:Configuration>

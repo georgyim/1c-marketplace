@@ -23,6 +23,8 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ПриходнаяНакладная.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ТоварыНаСкладах</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="daec69b7-f2b8-4bdc-b9e8-f85cf688a5a1">
@@ -40,6 +42,15 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="d7caddca-6ae5-4f41-a840-250857505069">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="0b89597d-ac50-4817-af66-efc676f62fb9">
     <producedTypes>
       <objectType typeId="0321c7f9-582e-4a31-bbea-f40586cb8cf7" valueTypeId="ad7869af-704c-4c18-b3b8-20ef918ee626"/>
@@ -51,10 +62,10 @@
       <value>Товары</value>
     </synonym>
     <attributes uuid="fd87fa44-bf0d-49f8-846c-4b6d189cdc24">
-      <name>Номенклатуры</name>
+      <name>Номенклатура</name>
       <synonym>
         <key>ru</key>
-        <value>Номенклатуры</value>
+        <value>Номенклатура</value>
       </synonym>
       <type>
         <types>CatalogRef.Номенклатура</types>

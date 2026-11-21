@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d12318c3-4372-4429-8a1b-eb3acc73f561">
+  <producedTypes>
+    <selectionType typeId="53553d91-487a-4a13-ab69-c51fd3abde12" valueTypeId="c5abcbc5-bb67-4cda-950a-33b66d125b0a"/>
+    <listType typeId="0f8d85c1-e953-4891-b6a3-424699600fd0" valueTypeId="516dad5c-ffa0-438b-9037-cdf807d5aab4"/>
+    <managerType typeId="0f01b829-c032-4e51-a08c-2c5e878c34d6" valueTypeId="e569b20b-e857-408a-a727-e35aea65c16e"/>
+    <recordSetType typeId="687b0b5b-cefc-44cd-8d2d-520c7889667a" valueTypeId="311356f5-acce-47a8-9ec8-356fbefceb17"/>
+    <recordKeyType typeId="76c580a0-0cdd-4983-93b6-dcc5ad97c78d" valueTypeId="485e7b92-31c6-42e0-bbc9-512f44a6a2dc"/>
+    <recordType typeId="07105b34-fb47-4181-ae30-3a23dea55e20" valueTypeId="5468d669-fd56-4b91-872b-7dd8fd36d8e9"/>
+  </producedTypes>
+  <name>Продажи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="32ae41ca-c173-472b-a9ca-0d7cb90df60e">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="d1998be4-f5e6-47ef-8326-ac052fb13903">
+    <name>Выручка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выручка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="d37baa6f-5281-49df-9cd3-5661648b2652">
+    <name>СуммаКомиссии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма комиссии</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="55a3f8fe-4e32-4a57-9c64-40b3f339737b">
+    <name>Себестоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Себестоимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="b3bf54ad-563a-4ea7-9fe7-1aa4b0d9b0f1">
+    <name>Маркетплейс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Маркетплейс</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="8f022400-3035-4bde-8daa-f8bc381222c5">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>
