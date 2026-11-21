@@ -5,10 +5,10 @@
     <listType typeId="83d64fff-8dd9-4ccd-9468-e9aa71d3dca6" valueTypeId="133435fd-e680-4f73-a47d-0b956dc60102"/>
     <managerType typeId="d67bd65c-3486-4fbc-af8c-de2f6eb5fc9f" valueTypeId="ad62cf36-737b-4da2-ad7a-c9b94d0833dc"/>
   </producedTypes>
-  <name>СтатусыЗаказаFBS</name>
+  <name>СтатусыЗаказа</name>
   <synonym>
     <key>ru</key>
-    <value>Статусы заказа FBS</value>
+    <value>Статусы заказа</value>
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>

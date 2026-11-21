@@ -3,7 +3,7 @@
   <name>PetProjectMarketPlace</name>
   <synonym>
     <key>ru</key>
-    <value>Маркетплейс</value>
+    <value>Marketplace</value>
   </synonym>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="7689eabd-876c-45f7-919d-df3fd99265fd"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="bd726826-b2ee-462d-8035-9e37528a9d21"/>
@@ -47,7 +47,7 @@
   <documents>Document.ЗаказМаркетплейса</documents>
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.УстановкаЦенМаркетплейса</documents>
-  <enums>Enum.СтатусыЗаказаFBS</enums>
+  <enums>Enum.СтатусыЗаказа</enums>
   <informationRegisters>InformationRegister.ЦеныМаркетплейса</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ВзаиморасчетыСМаркетплейсами</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>

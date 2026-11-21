@@ -22,7 +22,7 @@
         <value>Создать заказ</value>
       </synonym>
       <httpMethod>POST</httpMethod>
-      <handler>ordersСоздатьЗаказ</handler>
+      <handler>СоздатьЗаказ</handler>
     </methods>
   </urlTemplates>
   <urlTemplates uuid="dbac0dcb-3b7a-4c73-a292-1febc5b0a81b">

@@ -71,7 +71,7 @@
       <value>Статус</value>
     </synonym>
     <type>
-      <types>EnumRef.СтатусыЗаказаFBS</types>
+      <types>EnumRef.СтатусыЗаказа</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
