@@ -45,6 +45,7 @@
     <button id="btn-new-order">+ Новый заказ</button>
     <button id="btn-orders" class="secondary">Все заказы</button>
     <button id="btn-refresh" class="secondary">Обновить цифры</button>
+    <button id="btn-upload" class="secondary">Выгрузить в Node.js</button>
   </div>
 
   <script>

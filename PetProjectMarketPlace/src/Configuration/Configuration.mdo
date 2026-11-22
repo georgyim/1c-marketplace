@@ -48,6 +48,7 @@
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.УстановкаЦенМаркетплейса</documents>
   <enums>Enum.СтатусыЗаказа</enums>
+  <reports>Report.ДоступныеОстатки</reports>
   <informationRegisters>InformationRegister.ЦеныМаркетплейса</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ВзаиморасчетыСМаркетплейсами</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
